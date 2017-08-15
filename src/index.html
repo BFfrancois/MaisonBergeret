@@ -8,13 +8,87 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Stater Pack</title>
+  <title>Maison Bergeret</title>
 </head>
 <body>
-  <h1>Stater Pack</h1>
+  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+    <div class="container">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a href="index.html" class="navbar-brand">Maison Bergeret</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          <a hrerf="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+          <a hrerf="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+          <a hrerf="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+          <a hrerf="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+          <a hrerf="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+<!--   Show slider -->
+  <section id="showcase">
+    <div id= "myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-innet">
 
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Vancouver made</h1>
+              <p class="lead">enderloin sausage tail capicola t-bone pork loin shank boudin cow rump tongue spare ribs bresaola.</p>
+              <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Organic</h1>
+              <p class="lead">enderloin sausage tail capicola t-bone pork loin shank boudin cow rump tongue spare ribs bresaola.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Baked goodies</h1>
+              <p class="lead">enderloin sausage tail capicola t-bone pork loin shank boudin cow rump tongue spare ribs bresaola.</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn again</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/tether.min.js"></script>

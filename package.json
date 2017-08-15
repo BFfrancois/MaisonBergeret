@@ -1,7 +1,7 @@
 {
-  "name": "project_starter",
+  "name": "MaisonBergeret",
   "version": "1.0.0",
-  "description": "project starter",
+  "description": "Mutipage theme",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
