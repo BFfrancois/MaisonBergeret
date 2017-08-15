@@ -1,0 +1,28 @@
+{
+  "name": "project_starter",
+  "version": "1.0.0",
+  "description": "project starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFfrancois/project-starter.git"
+  },
+  "author": "Francois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFfrancois/project-starter/issues"
+  },
+  "homepage": "https://github.com/BFfrancois/project-starter#readme",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
