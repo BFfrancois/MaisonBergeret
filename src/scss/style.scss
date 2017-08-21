@@ -38,10 +38,9 @@ $dark-overlay:rgba(0,0,0,0.7);
   background-size:cover;
 }
 
-#home-icons{
-  .fa{
-    font-size:$icon-size;
-  }
+
+.fa{
+  font-size:$icon-size;
 }
 
 #home-heading{
@@ -62,4 +61,17 @@ $dark-overlay:rgba(0,0,0,0.7);
   width:100%;
   height:100%;
 
+}
+
+#video-play{
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-position: 0 -300;
+  background-attachment: fixed;
+  text-align: center;
+  color:#fff;
+  a{
+    color: #fff;
+  }
 }

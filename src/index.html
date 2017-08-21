@@ -125,27 +125,57 @@
     </div>
   </section>
 <!--   Info section  -->
-<section id="info" class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 align-self-center">
-        <h3>Lorem ipsum</h3>
-          <p>Shankle chuck shoulder pig. Andouille frankfurter corned beef ham. Turkey shank pastrami venison drumstick rump. Kielbasa doner ground round pork belly shankle ham hock venison ball tip landjaeger jowl chicken cow turkey pork chop rump. </p>
-          <a class="btn btn-outline-danger btn-lg">Learn More</a>
-      </div>
-      <div class="col-sm-6">
-      <img src="../img/financier.jpg" class="img-fluid" alt="">
-      </div>
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 align-self-center">
+          <h3>Lorem ipsum</h3>
+            <p>Shankle chuck shoulder pig. Andouille frankfurter corned beef ham. Turkey shank pastrami venison drumstick rump. Kielbasa doner ground round pork belly shankle ham hock venison ball tip landjaeger jowl chicken cow turkey pork chop rump. </p>
+            <a class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-sm-6">
+        <img src="../img/financier.jpg" class="img-fluid" alt="">
+        </div>
 
+      </div>
+    </div>
+  </section>
+
+<!-- video play section -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#"
+            class="video"
+            data-video="https://www.youtube.com/embed/-Ve-kDgVhHA"
+            data-toggle="modal"
+            data-target="#videoModal">
+              <i class="fa fa-play"></i>
+            </a>
+            <h1>Financier Recette</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- video Modal -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
   </div>
-</section>
-
-
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 </html>
