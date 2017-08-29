@@ -1,3 +1,13 @@
+body{
+font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Lobster', cursive;
+font-size: 20px;
+background-color: #FAEBD7;
+}
+
+
 .carousel-item {
   height: 450px; }
 
@@ -80,4 +90,13 @@
 
 .log{
   width: 200px;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
 }
