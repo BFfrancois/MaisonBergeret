@@ -1,7 +1,4 @@
 body{
-font-family: 'Cookie', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif;
 font-family: 'Lobster', cursive;
 font-size: 20px;
 background-color: #FAEBD7;
@@ -99,4 +96,22 @@ background-color: #FAEBD7;
   color: #fff;
   margin-bottom: 10px;
   display: none;
+}
+.card-contact{
+  background-color: navajowhite;
+}
+
+.form-control{
+  background-color: #FAEBD7;
+}
+.button-submit{
+  font-family: 'Lobster', cursive;
+  background-color: #FAEBD7;
+}
+
+.card-product{
+  background-color: navajowhite;
+}
+.form-control{
+  font-family: 'Lobster', cursive;
 }
