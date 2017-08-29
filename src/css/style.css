@@ -39,7 +39,8 @@ background-color: #FAEBD7;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+}
 
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
@@ -67,8 +68,8 @@ background-color: #FAEBD7;
 
 #page-header{
   height: 200px;
-  background: url("../img/image1.jpg");
-  background-position: 0 -360px;
+  background: url("../img/image2.png");
+  background-position: 0px;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
@@ -115,3 +116,16 @@ background-color: #FAEBD7;
 .form-control{
   font-family: 'Lobster', cursive;
 }
+
+.page-boxes{
+  background: url("../img/image2.png");
+  background-size: cover;
+  background-position: 0px;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 50px;
+}
+
+
+
+.card { background-color: rgba(245, 245, 245, 0); }
