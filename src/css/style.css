@@ -35,7 +35,7 @@ background-color: #FAEBD7;
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url("../img/paris.jpg");
+  background: url("../img/image2.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -53,8 +53,8 @@ background-color: #FAEBD7;
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../img/media.jpg");
-  background-position: 0 -300;
+  background: url("../img/image2.png");
+  background-position: -150;
   background-attachment: fixed;
   text-align: center;
   color: #fff; }
