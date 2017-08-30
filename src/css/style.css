@@ -67,9 +67,9 @@ background-color: #FAEBD7;
 }
 
 #page-header{
-  height: 200px;
+  height: 250px;
   background: url("../img/image2.png");
-  background-position: 0px;
+  background-position: 0px -900px;;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
@@ -98,7 +98,7 @@ background-color: #FAEBD7;
   margin-bottom: 10px;
   display: none;
 }
-.card-contact{
+#card-contact{
   background-color: navajowhite;
 }
 
@@ -110,7 +110,7 @@ background-color: #FAEBD7;
   background-color: #FAEBD7;
 }
 
-.card-product{
+#card-product{
   background-color: navajowhite;
 }
 .form-control{
