@@ -4,7 +4,6 @@ font-size: 20px;
 background-color: #FAEBD7;
 }
 
-
 .carousel-item {
   height: 450px; }
 
@@ -12,22 +11,69 @@ background-color: #FAEBD7;
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1em !important;
-  padding-right: 1em !important; }
+  padding-right: 1em !important;
+}
+
+#vancouver{
+  color: navajowhite;
+}
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid; }
+  border-left: #444 3px solid;
+}
+
 
 .carousel-image-1 {
   background: url("../img/financier2.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 
 .carousel-image-2 {
   background: url("../img/image2.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 
 .carousel-image-3 {
   background:url('../img/vancouver2.png');
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#mybtn{
+  background-color: #A9A9A9;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+#mybtn:hover {
+  background-color: #e7e7e7;
+}
+
+#mybtn2{
+  background-color: navajowhite;
+  color: black;
+  border: 2px solid #FAEBD7;
+}
+
+#mybtn2:hover {
+  background-color: #FAEBD7;
+}
+
+#mybtn3{
+  background-color: white;
+  color: black;
+  border: 2px solid #FAEBD7;
+}
+
+#mybtn3:hover {
+  background-color: #FAEBD7;
+}
+
 
 .fa {
   font-size: 55px; }
@@ -42,6 +88,7 @@ background-color: #FAEBD7;
   color: #fff;
 }
 
+
 .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -54,7 +101,6 @@ background-color: #FAEBD7;
   position: relative;
   min-height: 200px;
   background: url("../img/image2.png");
-  background-position: -150;
   background-attachment: fixed;
   text-align: center;
   color: #fff; }
@@ -69,7 +115,7 @@ background-color: #FAEBD7;
 #page-header{
   height: 250px;
   background: url("../img/image2.png");
-  background-position: 0px -900px;;
+  background-position: 0px -900px;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
@@ -77,13 +123,8 @@ background-color: #FAEBD7;
 }
 
 #img-organic{
-    width: 300px;
-    height: 250px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-}
-.lead{
-  margin-bottom: 4rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .log{

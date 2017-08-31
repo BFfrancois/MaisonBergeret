@@ -8,20 +8,15 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
   <link rel="stylesheet" href="css/style.css">
-
-
-
-
-
   <title>Maison Bergeret</title>
 </head>
 <body>
-  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top">
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse">
         <a href="index.html" class="navbar-brand">
           <div class="log">
             <img alt="Card image cap" class="card-img-top img-fluid" src="./img/logo1.png"/>
@@ -49,7 +44,7 @@
   </nav>
 
 <!--   Show slider -->
-  <section id="showcase">
+  <section id="showcase py-5">
     <div id= "myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
@@ -60,35 +55,39 @@
 
         <div class="carousel-item carousel-image-1">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Tasty</h1>
-              <p class="lead">Maison Bergeret financier are so tasty.</p>
-              <a href="about.html" class="btn btn-primary btn-lg">Learn again</a>
-
+            <div>
+              <h1 class="text-center text-white pt-5 mt-5 pb-3">Tasty</h1>
+              <p class="lead text-center text-white">Maison Bergeret financier are so tasty.</p>
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <a href="about.html" class="btn btn-lg" id="mybtn3">Learn again</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="carousel-item carousel-image-2">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block mb-5">
-              <h1 class="display-3">Organic</h1>
-              <p class="lead">Maison Bergeret financier, made with the best organic ingredients.</p>
-              <a href="#gallery" class="btn btn-success btn-lg">Learn More</a>
+            <div>
+              <h1 class="text-center text-white pt-5 mt-5 pb-3">Organic</h1>
+              <p class="lead text-white text-center">Maison Bergeret, made with organic ingredients.</p>
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <a href="#gallery" class="btn btn-lg" id="mybtn2">Learn More</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="carousel-item carousel-image-3 active">
           <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <h1 class="display-3">Vancouver made</h1>
-              <p class="lead">Made with love in your local community.</p>
-              <a href="about.html" class="btn btn-danger btn-lg">Learn More</a>
+            <div>
+              <h1 class="text-center pt-5 mt-5 pb-3" id="vancouver">Vancouver made</h1>
+              <p class="lead text-center" id="vancouver">Made with love in your local community.</p>
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <a href="about.html" class="btn btn-lg" id="mybtn">Learn More</a>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
 
       <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
@@ -192,54 +191,54 @@
 
     <div class="container">
       <h1 class="text-center">Organic Made</h1>
-      <p>Check out our organic ingredients</p>
+      <p class="text-center">Check out our organic ingredients</p>
 
       <div class="row mb-4 py-3">
 
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/almonds.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/almonds.jpg" alt="" class="img-fluid" id="img-organic">
             <figcaption><small class="text-muted text-center">Organic Almond Flour</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/flour.png" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/flour.png" alt="" class="img-fluid" id="img-organic">
             <figcaption><small class="text-muted text-center">Organic Flour</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/flour.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/sugar.jpg" alt="" class="img-fluid" id="img-organic">
             <figcaption><small class="text-muted text-center">Organic Brown Sugar</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/vanilla.png" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
           <img src="./img/vanilla.png" alt="" class="img-fluid" id="img-organic">
           <figcaption><small class="text-muted text-center">Organic French Vanilla</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/butter.png" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
           <img src="./img/butter.png" alt="" class="img-fluid" id="img-organic">
           <figcaption><small class="text-muted text-center">Organic Butter</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 py-3">
-          <a href="./img/egg.png" data-toggle="lightbox" data-gallery="img-gallery">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
+          <a data-toggle="lightbox" data-gallery="img-gallery">
           <img src="./img/egg.png" alt="" class="img-fluid" id="img-organic">
           <figcaption><small class="text-muted">Organic Egg Whites</small></figcaption>
           </a>
