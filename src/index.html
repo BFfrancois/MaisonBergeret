@@ -16,7 +16,7 @@
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <a href="index.html" class="navbar-brand">
           <div class="log">
             <img alt="Card image cap" class="card-img-top img-fluid" src="./img/logo1.png"/>
@@ -30,12 +30,12 @@
           <a href="about.html" class="nav-link p-3">About Us</a>
           </li>
           <li class="nav-item">
-          <a href="product.html" class="nav-link p-3">Products</a>
+          <a href="product.html" class="nav-link p-3">products</a>
           </li>
-       <!--    <li class="nav-item">
-          <a href="blog.html" class="nav-link p-3">Blog</a>
-          </li>
- -->          <li class="nav-item">
+<!--           <li class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+          </li> -->
+          <li class="nav-item">
           <a href="contact.html" class="nav-link p-3">Contact</a>
           </li>
         </ul>
@@ -56,8 +56,8 @@
         <div class="carousel-item carousel-image-1">
           <div class="container">
             <div>
-              <h1 class="text-center text-white pt-5 mt-5 pb-3">Tasty</h1>
-              <p class="lead text-center text-white">Maison Bergeret financier are so tasty.</p>
+              <h1 class="text-center" id="h1tasty">Tasty</h1>
+              <p class="lead text-center" id="ptasty">Maison Bergeret financier are so tasty.</p>
               <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <a href="about.html" class="btn btn-lg" id="mybtn3">Learn again</a>
               </div>
@@ -68,7 +68,7 @@
         <div class="carousel-item carousel-image-2">
           <div class="container">
             <div>
-              <h1 class="text-center text-white pt-5 mt-5 pb-3">Organic</h1>
+              <h1 class="text-center text-white" id="h1slider">Organic</h1>
               <p class="lead text-white text-center">Maison Bergeret, made with organic ingredients.</p>
               <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <a href="#gallery" class="btn btn-lg" id="mybtn2">Learn More</a>
@@ -80,8 +80,8 @@
         <div class="carousel-item carousel-image-3 active">
           <div class="container">
             <div>
-              <h1 class="text-center pt-5 mt-5 pb-3" id="vancouver">Vancouver made</h1>
-              <p class="lead text-center" id="vancouver">Made with love in your local community.</p>
+              <h1 class="text-center" id="vancouver">Vancouver made</h1>
+              <p class="lead text-center" id="pvancouver">Made with love in your local community.</p>
               <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <a href="about.html" class="btn btn-lg" id="mybtn">Learn More</a>
               </div>
@@ -136,20 +136,23 @@
   <section id="home-icons" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mb-4 text-center">
+
+        <div class="col-4 mb-4 text-center">
           <i class="fa fa-heart mb-2"></i>
-            <h3>Healthy</h3>
-            <p>Maison Bergeret financier is similar to sponge cake, and contains organic ingredients.</p>
+          <h3><strong>Organic</strong></h3>
+          <p class="hidden-sm-down">Organic foods often have more beneficial nutrients.</p>
         </div>
-        <div class="col-md-4 mb-4 text-center">
+
+        <div class="col-4 mb-4 text-center">
           <i class="fa fa-smile-o mb-2"></i>
             <h3>Tasty</h3>
-            <p>Small French almond cake. Light and moist with a crisp, eggshell-like exterior.</p>
+            <p class="hidden-sm-down">Small French almond cake. Light and moist with a crisp, eggshell-like exterior.</p>
         </div>
-        <div class="col-md-4 mb-4 text-center">
-          <i class="fa fa-cart-plus mb-2"></i>
-            <h3>Buy financiers</h3>
-            <p>Soon available in Vancouver</p>
+
+        <div class="col-4 mb-4 text-center">
+          <i class="fa fa-map-marker"></i>
+          <h3><strong>Local</strong></h3>
+          <p class="hidden-sm-down">Made in Vancouver with love and passion by Maison Bergeret.</p>
         </div>
       </div>
     </div>
@@ -161,15 +164,16 @@
     <div class="dark-overlay">
       <div class="row">
         <div class="col">
-          <div class="container p-5">
-            <a href="#"
+          <div class="container p-4">
+<!--             <a href="#"
             class="video"
-            data-video="./img/coming-soon.jpg"
+            data-video="../img/coming-soon.jpg"
             data-toggle="modal"
-            data-target="#videoModal">
+            data-target="#videoModal"> -->
               <i class="fa fa-play"></i>
             </a>
-            <h1>Financier Recette</h1>
+            <h1>Financier recipe</h1>
+            <p>Released soon</p>
           </div>
         </div>
       </div>
@@ -186,21 +190,21 @@
 
 
 
-  <section id="gallery" class="py-5">
+  <section id="gallery" class="pt-4">
 
 
     <div class="container">
       <h1 class="text-center">Organic Made</h1>
       <p class="text-center">Check out our organic ingredients</p>
 
-      <div class="row mb-4 py-3">
+      <div class="row mb-4 pt-3">
 
 
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/almonds.jpg" alt="" class="img-fluid" id="img-organic">
-            <figcaption><small class="text-muted text-center">Organic Almond Flour</small></figcaption>
+            <figcaption><small class="text-muted text-center" id="ingredient">Organic Almond Flour</small></figcaption>
           </a>
         </div>
 
@@ -208,7 +212,7 @@
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/flour.png" alt="" class="img-fluid" id="img-organic">
-            <figcaption><small class="text-muted text-center">Organic Flour</small></figcaption>
+            <figcaption><small class="text-muted text-center" id="ingredient">Organic Flour</small></figcaption>
           </a>
         </div>
 
@@ -216,23 +220,23 @@
         <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
             <img src="./img/sugar.jpg" alt="" class="img-fluid" id="img-organic">
-            <figcaption><small class="text-muted text-center">Organic Brown Sugar</small></figcaption>
+            <figcaption><small class="text-muted text-center" id="ingredient">Organic Brown Sugar</small></figcaption>
           </a>
         </div>
 
 
         <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
-          <img src="./img/vanilla.png" alt="" class="img-fluid" id="img-organic">
-          <figcaption><small class="text-muted text-center">Organic French Vanilla</small></figcaption>
+          <img src="./img/vanilla2.png" alt="" class="img-fluid" id="img-organic">
+          <figcaption><small class="text-muted text-center" id="ingredient">Organic French Vanilla</small></figcaption>
           </a>
         </div>
 
 
-        <div class="col-lg-4 col-md-6 col-sm-6 col-6  py-3">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
           <img src="./img/butter.png" alt="" class="img-fluid" id="img-organic">
-          <figcaption><small class="text-muted text-center">Organic Butter</small></figcaption>
+          <figcaption><small class="text-muted text-center" id="ingredient">Organic Butter</small></figcaption>
           </a>
         </div>
 
@@ -240,7 +244,7 @@
         <div class="col-lg-4 col-md-6 col-sm-6 col-6 py-3">
           <a data-toggle="lightbox" data-gallery="img-gallery">
           <img src="./img/egg.png" alt="" class="img-fluid" id="img-organic">
-          <figcaption><small class="text-muted">Organic Egg Whites</small></figcaption>
+          <figcaption><small class="text-muted" id="ingredient">Organic Egg Whites</small></figcaption>
           </a>
         </div>
 
@@ -286,7 +290,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <p>Copyright &copy; 2017 Maison Bergeret</p>
+          <p id="opyright">Copyright &copy; 2017 Maison Bergeret</smal></p>
         </div>
       </div>
     </div>

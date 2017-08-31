@@ -14,9 +14,7 @@ background-color: #FAEBD7;
   padding-right: 1em !important;
 }
 
-#vancouver{
-  color: navajowhite;
-}
+
 
 .navbar .nav-item.active {
   border-left: #444 3px solid;
@@ -42,6 +40,32 @@ background-color: #FAEBD7;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+#h1header{
+  padding-top: 50px;
+}
+
+#h1slider{
+  padding-top: 150px;
+}
+
+#h1tasty{
+  padding-top: 150px;
+  color: black;
+}
+
+#ptasty{
+  color: black;
+}
+
+#vancouver{
+  color: navajowhite;
+  padding-top: 150px;
+}
+
+#pvancouver{
+  color: navajowhite;
 }
 
 #mybtn{
@@ -171,4 +195,16 @@ background-color: #FAEBD7;
   border-radius: 40%;
 }
 
-.card { background-color: rgba(245, 245, 245, 0); }
+.card {
+  background-color: rgba(245, 245, 245, 0);
+}
+
+#ingredient{
+  font-size: 13px;
+}
+
+#copyright{
+  font-size: 16px;
+}
+
+
