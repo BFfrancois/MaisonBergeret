@@ -25,9 +25,6 @@ background-color: #FAEBD7;
   padding-right: 100px;
 }
 
-#navbarToggler1{
-  border-right: 20px;
-}
 
 .carousel-image-1 {
   background: url("../img/financier2.png");
@@ -212,6 +209,9 @@ background-color: #FAEBD7;
 
 #copyright{
   font-size: 16px;
+}
+#moi{
+  font-size:14px;
 }
 
 
