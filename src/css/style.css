@@ -47,6 +47,13 @@ background-color: #FAEBD7;
   background-attachment: fixed;
 }
 
+#myCarousel{
+       width:100% !important;
+     overflow: hidden !important;
+     right:0 !important;
+}
+
+
 #h1header{
   padding-top: 50px;
 }
