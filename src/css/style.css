@@ -5,7 +5,8 @@ background-color: #FAEBD7;
 }
 
 .carousel-item {
-  height: 450px; }
+  height: 420px;
+}
 
 .navbar .nav-link {
   font-size: 16px;
@@ -48,9 +49,9 @@ background-color: #FAEBD7;
 }
 
 #myCarousel{
-       width:100% !important;
-     overflow: hidden !important;
-     right:0 !important;
+  width:100% !important;
+  overflow: hidden !important;
+  right:0 !important;
 }
 
 
@@ -59,11 +60,11 @@ background-color: #FAEBD7;
 }
 
 #h1slider{
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 #h1tasty{
-  padding-top: 150px;
+  padding-top: 200px;
   color: black;
 }
 
@@ -73,7 +74,7 @@ background-color: #FAEBD7;
 
 #vancouver{
   color: navajowhite;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 #pvancouver{
@@ -109,7 +110,6 @@ background-color: #FAEBD7;
 #mybtn3:hover {
   background-color: #FAEBD7;
 }
-
 
 .fa {
   font-size: 55px; }
@@ -164,6 +164,10 @@ background-color: #FAEBD7;
 
 .log{
   width: 200px;
+}
+
+.log:hover {
+  background-color: black;
 }
 
 .alert {
