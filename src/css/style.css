@@ -179,10 +179,7 @@ background-color: #FAEBD7;
   display: none;
 }
 
-#fluid{
-  max-width: 100% !important;
-  height: auto !important;
-}
+
 
 #card-contact{
   background-color: navajowhite;
