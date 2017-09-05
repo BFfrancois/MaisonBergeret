@@ -19,17 +19,17 @@ $dark-overlay:rgba(0,0,0,0.7);
 }
 
 .carousel-image-1{
-  background:url('../img/financier2.png');
+  background:url('../img/financier2.jpg');
   background-size:cover;
 }
 
 .carousel-image-2{
-  background:url('../img/image2.png');
+  background:url('../img/image2.jpg');
   background-size:cover;
 }
 
 .carousel-image-3{
-  background:url('../img/vancouver2.png');
+  background:url('../img/vancouver2.jpg');
   background-size:cover;
 }
 
@@ -38,14 +38,7 @@ $dark-overlay:rgba(0,0,0,0.7);
   font-size:$icon-size;
 }
 
-#home-heading{
-  position:relative;
-  min-height:200px;
-  background:url('../img/paris.jpg');
-  background-attachment: fixed;
-  text-align: center;
-  color:#fff;
-}
+
 
 .dark-overlay{
   background-color:$dark-overlay;

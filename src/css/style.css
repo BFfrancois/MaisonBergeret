@@ -28,21 +28,21 @@ background-color: #FAEBD7;
 
 
 .carousel-image-1 {
-  background: url("../img/financier2.png");
+  background: url("../img/financier2.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .carousel-image-2 {
-  background: url("../img/image2.png");
+  background: url("../img/image2.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .carousel-image-3 {
-  background:url('../img/vancouver2.png');
+  background:url('../img/vancouver2.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -117,7 +117,7 @@ background-color: #FAEBD7;
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url("../img/image2.png");
+  background: url("../img/image2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -136,7 +136,7 @@ background-color: #FAEBD7;
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../img/image2.png");
+  background: url("../img/image2.jpg");
   background-attachment: fixed;
   text-align: center;
   color: #fff; }
@@ -150,7 +150,7 @@ background-color: #FAEBD7;
 
 #page-header{
   height: 250px;
-  background: url("../img/image2.png");
+  background: url("../img/image2.jpg");
   background-position: 0px -900px;
   background-attachment: fixed;
   color: #fff;
@@ -198,7 +198,7 @@ background-color: #FAEBD7;
 }
 
 .page-boxes{
-  background: url("../img/image2.png");
+  background: url("../img/image2.jpg");
   background-size: cover;
   background-position: 0px;
   background-attachment: fixed;
