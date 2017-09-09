@@ -180,6 +180,21 @@ background-color: #FAEBD7;
 }
 
 
+@media screen and (min-width: 480px) {
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  #contact-margin {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
 
 #card-contact{
   background-color: navajowhite;
@@ -188,6 +203,7 @@ background-color: #FAEBD7;
 .form-control{
   background-color: #FAEBD7;
 }
+
 .button-submit{
   font-family: 'Lobster', cursive;
   background-color: #FAEBD7;
@@ -196,6 +212,7 @@ background-color: #FAEBD7;
 #card-product{
   background-color: navajowhite;
 }
+
 .form-control{
   font-family: 'Lobster', cursive;
 }
@@ -227,5 +244,7 @@ background-color: #FAEBD7;
 #moi{
   font-size:14px;
 }
+
+
 
 
