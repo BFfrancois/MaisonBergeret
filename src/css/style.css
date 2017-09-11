@@ -89,6 +89,14 @@ body{
   color: white;
 }
 
+@media (max-width: 991px) {
+  #h1header{
+  padding-top: 195px;
+  color: white;
+  font-size: 32px;
+  }
+}
+
 #plocal{
   color: white;
   margin-bottom: 50PX
