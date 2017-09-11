@@ -7,17 +7,20 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width:100%;
+  height:auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 768px) {
   body {
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    background: url(../img/wood2.jpg) no-repeat center center fixed;
+    background: url(../img/wood.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height:100vh;
   }
 }
 
@@ -79,9 +82,7 @@ body{
   overflow: scroll !important;
   right:0 !important;
   height: 100% !important;
-
 }
-
 
 #h1header{
   padding-top: 168px;
@@ -153,14 +154,10 @@ body{
   font-size: 55px;
 }
 
-
-
 #main-footer {
   background: black;
   color: #fff;
 }
-
-
 
 section#about{
   background-color: #FAEBD7;
@@ -231,11 +228,9 @@ section#contact{
   font-family: 'Lobster', cursive;
 }
 
-
  div.card-block{
   color: white;
  }
-
 
 .financier3{
   border-radius: 40%;
@@ -246,7 +241,6 @@ section#contact{
   border-color: rgba(245, 245, 245, 0);
 }
 
-
 #ingredient{
   font-size: 13px;
 }
@@ -254,6 +248,7 @@ section#contact{
 #copyright{
   font-size: 16px;
 }
+
 #moi{
   font-size:14px;
 }
